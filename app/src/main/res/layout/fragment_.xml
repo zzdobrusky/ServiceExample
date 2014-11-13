@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".Service$PlaceholderFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            style="@style/AppButton"
+            android:id="@+id/start_button"
+            android:text="Start Service"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <View
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="@dimen/divider_size"
+            android:layout_height="match_parent" />
+        <Button
+            style="@style/AppButton"
+            android:id="@+id/stop_button"
+            android:text="Stop Service"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+    <View
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_size" />
+    <Button
+        style="@style/AppButton"
+        android:id="@+id/settings_button"
+        android:text="Settings"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <View
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_size" />
+
+</LinearLayout>
